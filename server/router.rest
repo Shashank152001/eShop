@@ -5,7 +5,7 @@ GET http://localhost:5000/api
 
 // for single data
 ###
-GET http://localhost:5000/api/632417d3c154766378d15cdf
+GET http://localhost:5000/api/63313782adc3537be5c7725c
 
 // create record
 ###
@@ -13,16 +13,16 @@ POST http://localhost:5000/api
 Content-Type: application/json
 
 {
-    "name":"LGvt4 TV",
-    "desc":"HD 42 inch LED",
-    "price":45000,
+    "name":"LGvt4233 TV",
+    "desc":"HD 45 inch LED",
+    "price":55000,
     "img":"/upload/lgtvv.jpeg"
 }
 
 //for delete single record
 
 ###
-DELETE http://localhost:5000/api/633007d6910c7804df62ca26
+DELETE http://localhost:5000/api/63313755adc3537be5c7724f
 
 ###
 PUT http://localhost:5000/api/

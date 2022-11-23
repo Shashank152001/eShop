@@ -35,7 +35,7 @@ function Productst(props) {
     <p className="card-text">{products.desc}</p>
     <p className="card-text">{products.price}</p>
     <button className="btn btn-success me-2" onClick={(e)=>{handleAddcart(e,products)}}>Add Cart</button>
-    <a href={`/productupdate/${products._id}`}><button className="btn btn-primary me-2">More Details</button></a>
+    <Link to={`/productupdate/${products._id}`}><button className="btn btn-primary me-2">More Details</button></Link>
 
   </div>
 </div>
